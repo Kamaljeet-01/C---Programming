@@ -37,5 +37,19 @@ int main()
     scanf("%d%f",&x,&y_1);
     int z=x+y_1;
     printf("%d",z);
+//rewriting the value of variable.
+    int a=200;
+    a=300;
+    printf("%d",a);
+    const int x=34;
+   // x=99;                 this will get a error because we fix the value of x by using const keyword before int to fix the value .
+    printf("%d",x);
+    const float y=12937.97989;
+    //y=2863574.09762;          here also we will get error.
+    printf("%f",y);
+    const char z='a';
+   // z='r';                    error appears here again.
+    printf("%c",z);
+
 
 }
