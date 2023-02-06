@@ -20,4 +20,22 @@ int main()
     float b= 30.76;
     printf("%f%f=%f",a,b,a+b);
     return "task done";
+    
+// purpose for return statement : when main function complete his task it give the return statement to the compiler to show that all the task has completed successfully.
+//control transfer to main function
+    int p;
+    float q;
+    printf("Enter the data regarding to p and q :::\n");
+    scanf("%d",&p);
+    scanf("%d",&q);
+    printf("value you entered for p is :%d\n",p);
+    printf("value you entered for q is :%f",q);
+
+    int x;
+    float y_1;
+    printf("enter the data here:::::");
+    scanf("%d%f",&x,&y_1);
+    int z=x+y_1;
+    printf("%d",z);
+
 }
