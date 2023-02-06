@@ -1,0 +1,23 @@
+#include <stdio.h>     // standard input output header file
+
+int main()
+{
+    printf("name\t\t\t\t\t\t\t\t\t\t\t");
+    printf("kamaljeet yadav\n");
+    printf("Reg.No :\t\t\t\t\t\t\t\t\t\t\t\t\t");
+    printf("12214612\n");
+    printf("CGPA :\t\t\t\t\t\t\t\t\t\t\t\t\t\t");
+    printf("9.3\n");
+    printf("Roll :\t\t\t\t\t\t\t\t\t\t\t\t\t\t");
+    printf("36");
+
+    int x=10;
+    int y=20;
+    printf("value of x is=%d\n",x);     //%d is for integer and %f is for float.(percentage/format specifier string );
+    printf("value of y is =%d",y);
+
+    float a= 10.43;
+    float b= 30.76;
+    printf("%f%f=%f",a,b,a+b);
+    return "task done";
+}
